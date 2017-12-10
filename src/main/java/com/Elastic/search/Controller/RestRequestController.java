@@ -14,10 +14,10 @@ import org.springframework.stereotype.Controller;
 @RestController
 public class RestRequestController {
 
-	//@Autowired
+	//@Autowired  //It is not used because thar QueryDao is not @Entity or @Bean
 	private QueryDao document = new QueryDao();
 	
-	//@GetMapping(value = "/api/get")
+	
 	@RequestMapping(value = "/api/get" , method = RequestMethod.GET)
 	public String create() {
 		System.out.println("hgdhasvfhg");

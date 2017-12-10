@@ -45,7 +45,7 @@
       
       <dependency>
 		 <groupId>org.springframework.boot</groupId>
-		 <artifactId>spring-boot-starter-thymeleaf</artifactId>
+		 <artifactId>spring-boot-starter-thymeleaf</artifactId>		<!-- This is used for running rest controller file -->
 	  </dependency>
 
       <dependency>
